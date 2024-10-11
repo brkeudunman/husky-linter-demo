@@ -14,12 +14,12 @@
     "react-dom": "^18"
   },
   "lint-staged": {
-    "*/**/*.{js,jsx,ts,tsx}": [
+    "*.{js,jsx,ts,tsx}": [
       "prettier --write",
       "eslint --fix",
       "eslint"
     ],
-    "*/**/*.{json,css,scss,md}": [
+    "*.{json,css,scss,md}": [
       "prettier --write"
     ]
   },
