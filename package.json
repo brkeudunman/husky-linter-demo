@@ -19,7 +19,7 @@
       "eslint --fix",
       "eslint"
     ],
-    "*/**/*.{json,css,md}": [
+    "*/**/*.{json,css,scss,md}": [
       "prettier --write"
     ]
   },
